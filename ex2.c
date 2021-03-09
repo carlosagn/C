@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX 100
-#Feito por Carlos Augusto Gomes Neto
+//Feito por Carlos Augusto Gomes Neto
 
-const int MAXN = 50; // tamanho m·ximo do nome ou directÛrio do arquivo
+const int MAXN = 50; // tamanho m√°ximo do nome ou direct√≥rio do arquivo
 
 struct dados
 {
@@ -65,14 +65,14 @@ main()
    return 0;
 }
 
-//imc() retorna o IMC calculado; essa funÁ„o recebe o peso e a altura./
+//imc() retorna o IMC calculado; essa fun√ß√£o recebe o peso e a altura./
 float
 imc(float p, float a)
 {
    return p / (a * a);
 }
 
-//showIMC() apresenta o IMC e sua respectiva interpretaÁ„o; essa funÁ„o È do tipo void e recebe o IMC j· calculado;/
+//showIMC() apresenta o IMC e sua respectiva interpreta√ß√£o; essa fun√ß√£o √© do tipo void e recebe o IMC j√° calculado;/
 void
 showIMC(float imc)
 {
@@ -103,8 +103,8 @@ showP(Pessoa p)
    printf("Altura: %.2f.\n", p.altura);
 }
 
-/* mIMC() retorna uma vari·vel do tipo Pessoa e recebe duas vari·veis p1 e p2 do tipo Pessoa.
-Essa funÁ„o compara o IMC de p1 contra o de p2 e retorna p1 ou p2, dependendo qual dessas vari·veis tem o menor IMC.
+/* mIMC() retorna uma vari√°vel do tipo Pessoa e recebe duas vari√°veis p1 e p2 do tipo Pessoa.
+Essa fun√ß√£o compara o IMC de p1 contra o de p2 e retorna p1 ou p2, dependendo qual dessas vari√°veis tem o menor IMC.
 */
 
 Pessoa
